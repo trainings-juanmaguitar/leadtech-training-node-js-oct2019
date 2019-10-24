@@ -1,0 +1,35 @@
+{
+  "name": "gitbook-express-auth0-boilerplate",
+  "version": "1.0.0",
+  "description": "Host a GitBook in Express and secure it with Auth0 - the perfect setup for internal documentation!",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook install ./content/ && gitbook build ./content/",
+    "serve:book": "gitbook serve ./content/",
+    "serve:dev": "cross-env NODE_ENV=development node server",
+    "serve:prod": "cross-env NODE_ENV=production node server",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "auth0",
+    "gitbook",
+    "express"
+  ],
+  "engines": {
+    "node": "10.3.0"
+  },
+  "author": "Sandrino Di Mattia",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cross-env": "^1.0.8",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "gitbook-cli": "^2.3.2",
+    "nconf": "^0.8.5",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.5.2"
+  }
+}

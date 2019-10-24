@@ -1,0 +1,23 @@
+{
+  "name": "leadtech-training-node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercices.js",
+  "scripts": {
+    "deploy:gitbook": "git subtree push --prefix stuff/gitbook heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainings-juanmaguitar/training-leadtech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trainings-juanmaguitar/training-leadtech/issues"
+  },
+  "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech#readme",
+  "devDependencies": {
+    "react-test-renderer": "^16.8.6"
+  }
+}
