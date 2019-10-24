@@ -1,5 +1,3 @@
-## Repo Training Frontend/Javacript Leadtech May-June-July 2019
+## Repo Training Frontend/Javacript Leadtech Node JS Oct-
 
-This repo containes all the material used for the training done for Leadtech during April, May, June & July of 2019
-
-- https://leadtech-training.herokuapp.com/
+This repo containes all the material used for the training done for Leadtech during October, ...
