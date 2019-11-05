@@ -1,0 +1,25 @@
+class LeadtechEmployee {}
+
+function generateShowSecretCode(password) {
+	return function() {
+		
+	}
+}
+LeadtechEmployee.prototype.showSecretCode = generateShowSecretCode("wfdfs6")
+
+
+Create a "class" in javascript to create objects "leadtech employees" w/ the following properties
+- name → string
+- mail → string
+- job → string
+- isAdmin → boolean
+
+Add a secret password in the prototype:
+	- password: 
+	- 
+
+Add the following methods to be accesible from this objects:
+
+- sayHi()
+- hasAccess() 
+- showSecretCode() 
