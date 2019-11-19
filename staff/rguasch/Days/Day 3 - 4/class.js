@@ -28,7 +28,7 @@ class Person {
     }
 
     hasAccess() {
-        return this.isAdmin && (this.roles.includes('systems') || this.roles.includes('development'))
+        return this.isAdmin || (this.roles.includes('systems') || this.roles.includes('development'))
     }
 }
 
