@@ -41,4 +41,6 @@ function writePostTitles(posts) {
 getMailFromFile()
     .then(getUserWithThatMail)
     .then(getPostsFromUser)
-	.then(writePostTitles)
+    .then(writePostTitles)
+    .then(filename => console.log('File ' + filename + ' successfully created!'))
+    .catch(error => console.log(error.message))
