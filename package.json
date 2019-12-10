@@ -19,5 +19,10 @@
   "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech#readme",
   "devDependencies": {
     "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "q-io": "^1.13.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
   }
 }
