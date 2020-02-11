@@ -20,11 +20,10 @@ client.connect(async function(err) {
 
   // Find some documents
   const docs = await collection.find({}).toArray()
-  
+
   console.log("Found the following records");
   console.log(docs)
   client.close();
 
-    
-
+  
 });
