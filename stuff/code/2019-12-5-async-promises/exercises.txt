@@ -1,0 +1,23 @@
+https://javascript.info/async-await
+https://github.com/scopsy/await-to-js
+
+https://n161.tech/api/dummyapi/post?limit=20&page=2
+
+http://jsonplaceholder.typicode.com/users
+http://jsonplaceholder.typicode.com/posts?userid=2
+
+
+"Julianne.OConner@kory.org"
+
+Having the "Julianne.OConner@kory.org" mail written in a file called mail.txt
+
+→ get the mail from that file
+→ get the user from 'http://jsonplaceholder.typicode.com/users' that have this mail
+→ get the posts of that user (using its key) from 'http://jsonplaceholder.typicode.com/posts?userid=2'
+→ write in a file the titles of the posts separated by `\n`
+
+getMailFromFile()
+	.then(getUserWithThatMail)
+	.then(getPostsFromUser)
+	.then(writePostTitles)
+	

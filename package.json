@@ -19,5 +19,9 @@
   "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech#readme",
   "devDependencies": {
     "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-readdir-promise": "^1.0.1"
   }
 }

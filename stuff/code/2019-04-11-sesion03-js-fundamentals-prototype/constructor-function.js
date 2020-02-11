@@ -27,6 +27,10 @@ you.sayHi()
 // --------------------------
 
 class Person {
+	static whoami() {
+		return "class Person"
+	}
+
 	constructor(name, age) {
 		this.name = name
 		this.age = age
@@ -40,3 +44,7 @@ class Person {
 var me = new Person("paco", 23)
 var you = new Person("julian", 34)
 
+me.sayHi()
+you.sayHi()
+
+Person.whoami()
