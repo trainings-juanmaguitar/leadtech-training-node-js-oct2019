@@ -171,10 +171,10 @@ db.collection('restaurants')...
   .find( { "borough": "Manhattan" } )
   .find( { "address.zipcode": "10075" } )
   .find( { "grades.grade": "B" } )
-  .find( { "grades.score": { **$gt**: 30 } } ) // greater than
-  .find( { "grades.score": { **$lt**: 10 } } ) // greater than
+  .find( { "grades.score": { $gt: 30 } } ) // greater than
+  .find( { "grades.score": { $lt: 10 } } ) // greater than
   .find( { "cuisine": "Italian", "address.zipcode": "10075" }) // AND
-  .find( { **$or**: [
+  .find( { $or: [
     { "cuisine": "Italian" },
     { "address.zipcode": "10075" }
   ]}) // OR

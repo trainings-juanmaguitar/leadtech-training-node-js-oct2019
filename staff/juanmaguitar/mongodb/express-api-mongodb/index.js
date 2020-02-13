@@ -1,5 +1,10 @@
+const express = require('express')
 const MongoClient = require('mongodb').MongoClient
 const assert = require('assert');
+
+const app = express()
+
+const [,,PORT = 3001]  = process.argv
 
 const USER = `leadtech`
 const PASSWORD = `leadtech12345`
@@ -13,19 +18,24 @@ const COLLECTION_NAME = "tasks";
 const client = new MongoClient(ATLAS_URL, {useNewUrlParser: true,  useUnifiedTopology: true});
 
 // Use connect method to connect to the server
-client.connect(async function(err) {
+client.connect(function(err) {
   assert.equal(null, err);
   console.log("Connected successfully to server");
 
   const db = client.db(DB_NAME);
   const collection = db.collection(COLLECTION_NAME);
 
-  // Find some documents
-  const docs = await collection.find({}).toArray()
+  app.get('/tasks', async (req,res) => {
+    const docs = await collection.find({}).toArray()
+    res.json(docs)
+  })
 
-  console.log("Found the following records");
-  console.log(docs)
-  client.close();
+  app.listen(PORT, () => {
+    console.log(`Listening on PORT ${PORT}`)
+  })
+
+  // Find some documents
+  // client.close();
 
   
 });
