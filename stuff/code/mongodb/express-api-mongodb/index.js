@@ -1,8 +1,10 @@
 const express = require('express')
 const MongoClient = require('mongodb').MongoClient
 const assert = require('assert');
+const bodyparser = require('body-parser')
 
 const app = express()
+app.use(bodyparser.urlencoded({ extended : false }))
 
 const [,,PORT = 3001]  = process.argv
 
@@ -28,6 +30,29 @@ client.connect(function(err) {
   app.get('/tasks', async (req,res) => {
     const docs = await collection.find({}).toArray()
     res.json(docs)
+  })
+
+  /*
+  {
+    title: "loquesea" ,
+    createdAt: +new Date(),
+    done: false
+  }
+  */
+
+  app.post('/tasks', async (req,res) => {
+    const {title} = req.body
+    const createdAt = +new Date()
+    const done = false
+
+    const newTask = { title, createdAt, done }
+    try {
+      await collection.insertOne(newTask)
+    }
+    catch(e) {
+      res.status(500).json({e})  
+    }
+    res.status(200).json({msg: `task added correcly`})  
   })
 
   app.listen(PORT, () => {

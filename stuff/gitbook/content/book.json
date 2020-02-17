@@ -9,7 +9,7 @@
       "👨‍🏫 CodeMentor ": "https://www.codementor.io/juanmagarrido"
     }
   },
-  "plugins": ["anchorjs", "video", "disqus", "noembed", "embed-pdf", "toggle-chapters"],
+  "plugins": ["github-embed", "anchorjs", "video", "disqus", "noembed", "embed-pdf", "toggle-chapters"],
   "pluginsConfig": {
     "sharing": {
         "google": false,
