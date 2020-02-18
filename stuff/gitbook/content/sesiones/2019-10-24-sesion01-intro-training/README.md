@@ -25,6 +25,8 @@
 
 {% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-24-sesion01-intro-training/hello-world.js" %}{% endgithub_embed %}
 
+---
+
 {% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-24-sesion01-intro-training/first-server.js" %}{% endgithub_embed %}
 
 

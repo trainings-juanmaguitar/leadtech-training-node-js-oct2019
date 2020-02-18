@@ -108,9 +108,33 @@ helloTokyoGreeter('friend')('Yuki')
 
 ## Code 
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-24-10-sesion01-intro-training/hello-world.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/closures.js" %}{% endgithub_embed %}
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-24-10-sesion01-intro-training/first-server.js" %}{% endgithub_embed %}
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/closures-2.js" %}{% endgithub_embed %}
+
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/greetings.js" %}{% endgithub_embed %}
+
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/mathy.js" %}{% endgithub_embed %}
+
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/sum.js" %}{% endgithub_embed %}
+
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/createHowManyExecutionsFunction.js" %}{% endgithub_embed %}
+
+## Practice
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/exercise-closures.txt" %}{% endgithub_embed %}
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/closures/createSecutiryFunction.js" %}{% endgithub_embed %}
 
 
 
