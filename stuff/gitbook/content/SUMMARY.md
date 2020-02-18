@@ -13,4 +13,5 @@
 ### Sesiones Noviembre
 
 * [4. JS Fundamentals: this](sesiones/2019-11-05-sesion04-js-fundamentals-this/README.md) 
+* [4. JS Asynchronous: intro](sesiones/2019-11-11-sesion05-asynchronous-js-callbacks-promises/README.md) 
 
