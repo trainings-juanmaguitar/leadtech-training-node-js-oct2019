@@ -12,34 +12,32 @@
 
 ## Code 
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/closures.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/objects.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/closures-2.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/objects-and-prototypes-scheme.txt" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/greetings.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/access-properties-objects.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/mathy.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/creating-objects.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/sum.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/constructor-function.js" %}{% endgithub_embed %}
 
----
-
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/createHowManyExecutionsFunction.js" %}{% endgithub_embed %}
 
 ## Practice
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/exercise-closures.txt" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/exercise-LeadtechEmployee.txt" %}{% endgithub_embed %}
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/2019-10-29-sesion02-js-fundamentals-closures/createSecutiryFunction.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/generateShowSecretCode-insideClass.js" %}{% endgithub_embed %}
 
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/prototype/generateShowSecretCode.js" %}{% endgithub_embed %}
 
 
 
