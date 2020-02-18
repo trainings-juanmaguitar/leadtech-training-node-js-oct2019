@@ -1,4 +1,4 @@
-# Sesion 5 - Asynchronous Javascript: Callbacks and Promises (11-11-2019) 
+# Sesion 5 - Asynchronous Javascript: Callbacks & Promises (19-11-2019) 
 
 {% video %}https://vimeo.com/374894479{% endvideo %}
 
@@ -8,25 +8,30 @@
 
 ## Code 
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/async-js/readFileSyncExample.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/async-js/readFileSyncExample.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/async-js/readFileAsyncExample.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/async-js/readFileAsyncExample.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/async-js/callbacks.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/async-js/callbacks.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/async-js/examplePromiseSetTimeout.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/async-js/examplePromiseSetTimeout.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/js-fundamentals/async-js/readFilePromisesExample.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/async-js/readFilePromisesExample.js" %}{% endgithub_embed %}
 
 
 ## Practice
 
 👉 [Node School: Promises](https://github.com/stevekane/promise-it-wont-hurt)
+
+---
+
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/promise-it-wont-hurt/1-warm-up.js" %}{% endgithub_embed %}
+

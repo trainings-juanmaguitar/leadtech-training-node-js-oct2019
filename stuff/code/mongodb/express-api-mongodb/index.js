@@ -1,5 +1,5 @@
 const express = require('express')
-const MongoClient = require('mongodb').MongoClient
+const { MongoClient, ObjectId } = require('mongodb')
 const assert = require('assert');
 const bodyparser = require('body-parser')
 
@@ -30,6 +30,16 @@ client.connect(function(err) {
   app.get('/tasks', async (req,res) => {
     const docs = await collection.find({}).toArray()
     res.json(docs)
+  })
+
+  // 5e4555bf1c9d440000365b55
+  // localhost:3001/task/5e4555bf1c9d440000365b55
+  app.get('/task/:idTask', async (req,res) => {
+    const {idTask} = req.params
+    const task = await collection.find({
+      _id: ObjectId(idTask)
+    }).toArray()
+    res.json(task)
   })
 
   /*
