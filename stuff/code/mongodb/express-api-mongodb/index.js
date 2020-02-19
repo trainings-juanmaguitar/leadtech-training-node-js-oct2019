@@ -27,6 +27,12 @@ client.connect(function(err) {
   const db = client.db(DB_NAME);
   const collection = db.collection(COLLECTION_NAME);
 
+  /*
+    /tasks?done=true
+    /tasks?done=false
+  */
+
+
   app.get('/tasks', async (req,res) => {
     const docs = await collection.find({}).toArray()
     res.json(docs)
@@ -41,14 +47,36 @@ client.connect(function(err) {
     }).toArray()
     res.json(task)
   })
+  
+  app.delete('/task/:idTask', async (req,res) => {
+    const {idTask} = req.params
+    try {
+      await collection.deleteOne({ _id: ObjectId(idTask) })
+    }
+    catch(e) {
+      res.status(500).json({e})  
+    }
+    res.status(200).json({msg: `task ${idTask} removed correcly`})  
+  })
 
-  /*
-  {
-    title: "loquesea" ,
-    createdAt: +new Date(),
-    done: false
-  }
-  */
+  app.put('/task/:idTask', async (req,res) => {
+    const {idTask} = req.params
+    const {done: doneReqBody} = req.body
+
+    let done
+    if (doneReqBody === "true") done = true
+    else if (doneReqBody === "false") done = false
+    else res.status(500).json({msg: `task ${idTask} coultn't be updated. Bad argument.`})  
+
+    await collection.updateOne(
+      { _id: ObjectId(idTask) },
+      { $set: { done } }
+    )
+
+    res.status(200).json({msg: `task ${idTask} updated correcly`})  
+
+  })
+  
 
   app.post('/tasks', async (req,res) => {
     const {title} = req.body

@@ -17,3 +17,7 @@
 * [6. Async JS: promises](sesiones/2019-11-21-sesion06-asynchronous-js-promises/README.md) 
 * [7. Async JS: promises](sesiones/2019-11-28-sesion07-asynchronous-js-promises/README.md) 
 
+### Sesiones Diciembre
+
+* [8. Async JS: promises](sesiones/2019-12-02-sesion08-asynchronous-js-promises/README.md) 
+

@@ -24,7 +24,7 @@
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/promise-it-wont-hurt/5-always-asynchronous.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/promise-it-wont-hurt/6-shortcuts.js" %}{% endgithub_embed %}
 
 ---
 
