@@ -21,4 +21,6 @@
 
 * [8. Async JS: promises](sesiones/2019-12-02-sesion08-asynchronous-js-promises/README.md) 
 * [9. Async JS: promises](sesiones/2019-12-03-sesion09-asynchronous-js-promises/README.md) 
+* [10. Async JS: async await](sesiones/2019-12-10-sesion10-asynchronous-js-async-await/README.md) 
+* [11. Arrays - Higher order functions](sesiones/2019-12-12-sesion11-arrays/README.md) 
 
