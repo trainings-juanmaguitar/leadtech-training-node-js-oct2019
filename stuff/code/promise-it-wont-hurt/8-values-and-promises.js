@@ -1,9 +1,9 @@
-function attachTitle(value) {
-  return 'DR. ' + value
+function attachTitle(name) {
+    return 'DR. ' + name;
 }
 
-const promise = Promise.resolve('MANHATTAN')
+var promise = Promise.resolve('MANHATTAN')
 
 promise
-  .then(attachTitle)
-  .then(console.log)
+    .then(attachTitle)
+    .then(console.log)

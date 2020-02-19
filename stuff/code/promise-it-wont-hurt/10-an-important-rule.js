@@ -7,16 +7,20 @@ function iterate(valueInteger) {
   return valueInteger+1
 }
 
+function do10Iterations() {
+  for (var i=0; i<10; i++)
+}
+
+function handleError(e) {
+  console.log(e.message)
+}
+
 Promise.resolve(1)
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .then(alwaysThrows, e => console.log(e.message))
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .then(iterate)
-  .catch()
+  .then(iterate, handleError)
+  .then(iterate, handleError)
+  .then(iterate, handleError)
+  .then(iterate, handleError)
+  .then(iterate, handleError)
+  .then(alwaysThrows)
+  .then(iterate, handleError)
+  .then(iterate, handleError)

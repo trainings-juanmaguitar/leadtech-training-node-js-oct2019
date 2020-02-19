@@ -1,19 +1,18 @@
-function promiseGetJson() {
+function getJSON() {
   return Promise.resolve(process.argv[2])
 }
 
-function parsePromised(json) {
-  return new Promise(function(resolve, reject) {
-    try {
-      const o = JSON.parse(json)
-      resolve(o)
-    }
-    catch(e) {
-      reject(e)
-    }
-  })
+function parsePromised(json){
+  return new Promise(function(resolve, reject){
+      try {
+          const o = JSON.parse(json)
+          resolve(o)
+      } catch(error) {
+          reject(error)
+      }
+  });
 }
 
-promiseGetJson()
-    .then(parsePromised)
-    .catch(e => console.log(e.message));
+getJSON()
+  .then(parsePromised)
+  .catch(error => console.log(error.message));

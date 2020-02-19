@@ -20,4 +20,5 @@
 ### Sesiones Diciembre
 
 * [8. Async JS: promises](sesiones/2019-12-02-sesion08-asynchronous-js-promises/README.md) 
+* [9. Async JS: promises](sesiones/2019-12-03-sesion09-asynchronous-js-promises/README.md) 
 
