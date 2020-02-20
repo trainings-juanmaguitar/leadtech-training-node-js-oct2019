@@ -1,0 +1,14 @@
+create a function that takes a password:
+- and set it to a private variable 
+- returns a function that will give you 3 tries to match the password
+
+function createSecurityFunction( password ) {....}
+
+var myFunction = createSecurityFunction('juanma')
+
+myFunction('cat') // 'no match' 
+myFunction('dog') // 'no match' 
+myFunction('elephant') // 'maximum tries reached!!' 
+
+myFunction('cat') // 'no match' 
+myFunction('juanma') // 'match!' 
