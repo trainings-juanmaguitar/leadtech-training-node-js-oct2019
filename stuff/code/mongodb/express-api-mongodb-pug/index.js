@@ -3,11 +3,14 @@ const { MongoClient, ObjectId } = require('mongodb')
 const assert = require('assert');
 const bodyparser = require('body-parser')
 const {fromBoolStringToBoolean} = require('./helpers')
-
+const moment = require('moment')
 
 const app = express()
-app.use(bodyparser.urlencoded({ extended : false }))
 
+app.use(express.static('public'))
+app.set('view engine', 'pug');
+
+app.use(bodyparser.urlencoded({ extended : false }))
 const [,,PORT = 3001]  = process.argv
 
 const USER = `leadtech`
@@ -42,8 +45,15 @@ client.connect(function(err) {
     const query = {}
     if (done !== undefined) query.done = done
 
-    const docs = await collection.find(query).toArray()
-    res.json(docs)
+    const tasks = await collection.find(query).toArray()
+      
+
+    res.render('tasks', {
+      tasks: tasks.map(task => ({
+        ...task,
+        createdAt: moment(task.createdAt).format("MMM Do YYYY")   
+      }))
+    })
   })
 
   // 5e4555bf1c9d440000365b55
