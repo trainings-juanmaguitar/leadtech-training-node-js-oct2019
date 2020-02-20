@@ -33,3 +33,5 @@
 
 * [15. NodeJs: Modules](sesiones/2020-01-07-sesion15-node-modules/README.md) 
 * [16. NodeJs: Native Modules](sesiones/2020-01-09-sesion16-node-native-modules/README.md) 
+* [17. NodeJs: Events & Streams](sesiones/2020-01-16-sesion18-node-events-streams/README.md) 
+* [18. NodeJs: Memory Management & Express](sesiones/2020-01-21-sesion19-node-memory/README.md) 
