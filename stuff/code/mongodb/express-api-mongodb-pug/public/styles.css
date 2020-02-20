@@ -1,0 +1,11 @@
+.tasks-list {
+ list-style-type: none; 
+}
+
+.tasks-list small{
+  margin-left: 10px;
+ }
+
+ .tasks-list .done {
+   text-decoration: line-through;
+}

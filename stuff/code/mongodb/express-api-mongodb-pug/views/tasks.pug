@@ -1,0 +1,12 @@
+html
+  head
+    title TODO App
+    link(href='styles.css', rel='stylesheet')
+  body
+    h1 Tasks
+    ul.tasks-list
+      each task in tasks
+        li(class=task.done ? 'done': 'notDone')
+          p
+            span= task.title
+            small= task.createdAt
