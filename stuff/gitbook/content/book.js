@@ -17,8 +17,7 @@ module.exports = {
     "video",
     "disqus",
     "noembed",
-    "embed-pdf",
-    "toggle-chapters"
+    "embed-pdf"
   ],
   "pluginsConfig": {
     "github-embed": {

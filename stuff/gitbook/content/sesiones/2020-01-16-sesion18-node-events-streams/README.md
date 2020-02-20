@@ -18,27 +18,27 @@
 
 ### Demo Events
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/demo-events/logger.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/demo-events/logger.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/demo-events/a.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/demo-events/a.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/demo-events/b.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/demo-events/b.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/demo-events/c.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/demo-events/c.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/demo-events/index.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/demo-events/index.js" %}{% endgithub_embed %}
 
 ### Events Write Log
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/events-write-log/logger.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/events-write-log/logger.js" %}{% endgithub_embed %}
 
 ### Stream Examples
 

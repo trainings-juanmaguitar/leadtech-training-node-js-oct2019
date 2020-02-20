@@ -34,19 +34,20 @@
 
 ### streams
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/streams/serve-big-file.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/streams/serve-big-file.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/streams/cp.0.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/streams/cp.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/streams/cp.1.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/streams/cp.0.js" %}{% endgithub_embed %}
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/node/streams/cp.2.js" %}{% endgithub_embed %}
+{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/streams/cp.1.js" %}{% endgithub_embed %}
+
 
 ### express first project
 
