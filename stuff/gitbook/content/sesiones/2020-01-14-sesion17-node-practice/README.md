@@ -1,6 +1,6 @@
-# Sesion 16 - NodeJs: Native Modules (09-01-2020) 
+# Sesion 17 - NodeJs: Practice (14-01-2020) 
 
-{% video %}https://vimeo.com/383778462{% endvideo %}
+{% video %}https://vimeo.com/386509030{% endvideo %}
 
 
 - <https://github.com/juanmaguitar/apuntes-nodejs/blob/master/intro-node.md>
