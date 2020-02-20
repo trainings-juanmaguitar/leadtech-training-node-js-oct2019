@@ -1,0 +1,17 @@
+html
+  head
+    title= title
+  body
+    h1= textPage
+    form(action="/contact", method="POST")
+      p
+        span Name
+        input(name="name")
+      p
+        span Mail
+        input(name="mail")
+      p
+        span Message
+        textarea(name="message")
+      p
+        button Send

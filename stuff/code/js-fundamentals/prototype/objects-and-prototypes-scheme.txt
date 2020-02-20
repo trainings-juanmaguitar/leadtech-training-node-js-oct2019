@@ -1,0 +1,12 @@
+
+Book
+	prototype → {
+		city
+	}
+	
+
+		book3
+		 {
+		   name
+		   published
+		 }
