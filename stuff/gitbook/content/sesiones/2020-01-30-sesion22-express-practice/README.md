@@ -1,4 +1,4 @@
-# Sesion 22 - Express Practice (04-02-2020) 
+# Sesion 22 - Express Practice (30-01-2020) 
 
 {% video %}https://vimeo.com/389244224{% endvideo %}
 

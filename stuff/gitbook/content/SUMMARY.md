@@ -2,6 +2,8 @@
 
 * [📺️ Sesiones](sesiones/README.md)
 
+☝️ Password Videos → IVeSUR
+
 ## 2019
 
 ### Sesiones Octubre
@@ -35,7 +37,7 @@
 * [16. NodeJs: Native Modules](sesiones/2020-01-09-sesion16-node-native-modules/README.md) 
 * [17. NodeJs: Practice](sesiones/2020-01-14-sesion17-node-practice/README.md) 
 * [18. NodeJs: Events & Streams](sesiones/2020-01-16-sesion18-node-events-streams/README.md) 
-* [19. NodeJs: Memory Management & Express](sesiones/2020-01-21-sesion19-node-memory/README.md) 
+* [19. NodeJs: Memory Management & Express](sesiones/2020-01-21-sesion19-node-memory-express/README.md) 
 * [20. Express](sesiones/2020-01-23-sesion20-express/README.md) 
 * [21. Express: Middleware](sesiones/2020-01-28-sesion21-express-middleware/README.md) 
 * [22. Express: Practice](sesiones/2020-01-30-sesion22-express-practice/README.md) 

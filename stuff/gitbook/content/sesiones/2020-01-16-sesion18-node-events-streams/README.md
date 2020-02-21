@@ -1,4 +1,4 @@
-# Sesion 18 - NodeJs: Events & Streams (14-01-2020) 
+# Sesion 18 - NodeJs: Events & Streams (16-01-2020) 
 
 {% video %}https://vimeo.com/386508801{% endvideo %}
 
