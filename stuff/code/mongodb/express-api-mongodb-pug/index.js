@@ -47,7 +47,6 @@ client.connect(function(err) {
 
     const tasks = await collection.find(query).toArray()
       
-
     res.render('tasks', {
       tasks: tasks.map(task => ({
         ...task,

@@ -33,5 +33,18 @@
 
 * [15. NodeJs: Modules](sesiones/2020-01-07-sesion15-node-modules/README.md) 
 * [16. NodeJs: Native Modules](sesiones/2020-01-09-sesion16-node-native-modules/README.md) 
-* [17. NodeJs: Events & Streams](sesiones/2020-01-16-sesion18-node-events-streams/README.md) 
-* [18. NodeJs: Memory Management & Express](sesiones/2020-01-21-sesion19-node-memory/README.md) 
+* [17. NodeJs: Practice](sesiones/2020-01-14-sesion17-node-practice/README.md) 
+* [18. NodeJs: Events & Streams](sesiones/2020-01-16-sesion18-node-events-streams/README.md) 
+* [19. NodeJs: Memory Management & Express](sesiones/2020-01-21-sesion19-node-memory/README.md) 
+* [20. Express](sesiones/2020-01-23-sesion20-express/README.md) 
+* [21. Express: Middleware](sesiones/2020-01-28-sesion21-express-middleware/README.md) 
+* [22. Express: Practice](sesiones/2020-01-30-sesion22-express-practice/README.md) 
+
+### Sesiones Febrero
+
+* [23. Express: JSON](sesiones/2020-02-04-sesion23-express-json/README.md) 
+* [24. Express: Practice](sesiones/2020-02-06-sesion24-express-practice/README.md) 
+* [25. MongoDB](sesiones/2020-02-11-sesion25-mongodb/README.md) 
+* [26. MongoDB & Express: API](sesiones/2020-02-13-sesion26-mongodb-express/README.md) 
+* [27. MongoDB & Express: API](sesiones/2020-02-18-sesion27-mongodb-express/README.md) 
+* [28. MongoDB & Express: Render HTML](sesiones/2020-02-20-sesion28-mongodb-express/README.md) 
