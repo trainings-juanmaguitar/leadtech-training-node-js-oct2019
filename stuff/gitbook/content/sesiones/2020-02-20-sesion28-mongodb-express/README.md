@@ -1,6 +1,6 @@
 # Sesion 28 - MongoDB & Express (20-02-2020) 
 
-{% video %}https://vimeo.com/392241442{% endvideo %}
+{% video %}https://vimeo.com/392933556{% endvideo %}
 
 👉 [MongoDB Notes](https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/docs/mongo-notes.md) 
 
