@@ -1,4 +1,4 @@
-# Sesion 19 - NodeJs: Memory Management (14-01-2020) 
+# Sesion 19 - NodeJs: Memory Management (21-01-2020) 
 
 {% video %}https://vimeo.com/388235919{% endvideo %}
 

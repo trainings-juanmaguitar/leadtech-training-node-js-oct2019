@@ -26,7 +26,7 @@
 * [10. Async JS: async await](sesiones/2019-12-10-sesion10-asynchronous-js-async-await/README.md) 
 * [11. Arrays - Higher order functions](sesiones/2019-12-12-sesion11-arrays/README.md) 
 * [12. ES6: Arrow Functions](sesiones/2019-12-16-sesion12-es6-arrow-functions/README.md) 
-* [13. ES6: let, const, templates, enhanced objects](sesiones/2019-12-16-sesion12-es6-arrow-functions/README.md) 
+* [13. ES6: let, const, templates, enhanced objects](sesiones/2019-12-17-sesion13-es6-let-const-templates-enhanced-objects/README.md) 
 * [14. ES6: rest, spread, default parameters, destructuring](sesiones/2019-12-19-sesion14-es6-rest-spread-default-destructuring/README.md) 
 
 ## 2020
