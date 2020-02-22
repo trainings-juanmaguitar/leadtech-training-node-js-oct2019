@@ -7,7 +7,7 @@ module.exports = {
       "1️⃣ Apuntes Principiante": "https://apuntes-javascript-principiante.netlify.com/",
       "2️⃣ Apuntes Intermedio": "https://apuntes-javascript-intermedio.netlify.com/",
       "3️⃣ Apuntes Avanzado": "https://apuntes-javascript-avanzado.netlify.com/",
-      "✍️ ApuntesJS Blog": "https://apuntesjs.es/",
+      "😎 JuanMa DEV Blog": "https://juanma.dev/",
       "👨‍🏫 CodeMentor ": "https://www.codementor.io/juanmagarrido"
     }
   },

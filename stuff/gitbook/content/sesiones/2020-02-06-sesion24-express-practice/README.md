@@ -75,10 +75,6 @@
 
 ---
 
-{% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/express/expressworks/6-PARAM-PAM-PAM.js" %}{% endgithub_embed %}
-
----
-
 {% github_embed "https://github.com/trainings-juanmaguitar/leadtech-training-node-js-oct2019/blob/master/stuff/code/express/expressworks/7-WHATS-IN-QUERY.js" %}{% endgithub_embed %}
 
 ---
