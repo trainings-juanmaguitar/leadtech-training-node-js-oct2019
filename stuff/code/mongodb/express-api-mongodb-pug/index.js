@@ -105,7 +105,7 @@ client.connect(function(err) {
     catch(e) {
       res.status(500).json({e})  
     }
-    res.status(200).json({msg: `task added correcly`})  
+    res.redirect('/tasks')
   })
 
   app.listen(PORT, () => {

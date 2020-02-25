@@ -4,9 +4,19 @@ html
     link(href='styles.css', rel='stylesheet')
   body
     h1 Tasks
+    form(action="/tasks", method="POST")
+      p
+        span Title Task
+        input(name="title")
+      p
+        button Send
+
     ul.tasks-list
       each task in tasks
         li(class=task.done ? 'done': 'notDone')
           p
             span= task.title
             small= task.createdAt
+            button(data-id=task._id).remove-task remove task
+
+    script(src='main.js')
