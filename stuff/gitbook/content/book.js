@@ -15,8 +15,7 @@ module.exports = {
     "github-embed",
     "anchorjs",
     "video",
-    "disqus",
-    "noembed",
+    "mygitalk",
     "embed-pdf"
   ],
   "pluginsConfig": {
@@ -28,8 +27,13 @@ module.exports = {
       "facebook": false,
       "twitter": false
     },
-    "disqus": {
-      "shortName": "leadtech-training"
+    "mygitalk": {
+      "clientID": "1ab9a96f64f47f57ccf7",
+      "clientSecret": "ac1e18d17ee85fa237412f77d4b1c07bf2d0a740",
+      "repo": "trainings-juanmaguitar/leadtech-training-node-js-oct2019",
+      "owner": "juanmaguitar",
+      "admin": ['juanmaguitar'],
+      "distractionFreeMode": false
     },
     "anchorjs": {
       "selector": "h2,h3,h4,h5",
