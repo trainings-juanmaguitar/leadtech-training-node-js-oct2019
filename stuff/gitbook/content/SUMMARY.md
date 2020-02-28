@@ -50,3 +50,5 @@
 * [26. MongoDB & Express: API](/sesiones/2020-02-13-sesion26-mongodb-express/README.md) 
 * [27. MongoDB & Express: API](/sesiones/2020-02-18-sesion27-mongodb-express/README.md) 
 * [28. MongoDB & Express: Render HTML](/sesiones/2020-02-20-sesion28-mongodb-express/README.md) 
+* [29. Mongoose](/sesiones/2020-02-25-sesion29-mongoose/README.md) 
+* [30. Mongoose w/ tests](/sesiones/2020-02-27-sesion30-mongoose-with-tests/README.md) 
