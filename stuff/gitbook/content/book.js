@@ -1,5 +1,10 @@
 require("dotenv").config();
 
+const {
+  GITHUB_API_TOKEN,
+  GITHUB_CLIENT_ID,
+  GITHUB_CLIENT_SECRET
+}
 module.exports = {
   "title": "Leadtech Javascript Training - Documentation",
   "links": {
@@ -20,7 +25,7 @@ module.exports = {
   ],
   "pluginsConfig": {
     "github-embed": {
-      token: process.env.GITHUB_API_TOKEN
+      token: GITHUB_API_TOKEN
     },
     "sharing": {
       "google": false,
@@ -28,8 +33,9 @@ module.exports = {
       "twitter": false
     },
     "mygitalk": {
-      "clientID": "1ab9a96f64f47f57ccf7",
-      "clientSecret": "ac1e18d17ee85fa237412f77d4b1c07bf2d0a740",
+      "clientID": GITHUB_CLIENT_ID,
+      "clientSecret": GITHUB_CLIENT_SECRET,
+      "accessToken": GITHUB_API_TOKEN,
       "repo": "trainings-juanmaguitar/leadtech-training-node-js-oct2019",
       "owner": "juanmaguitar",
       "admin": ['juanmaguitar'],
