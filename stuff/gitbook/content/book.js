@@ -36,10 +36,9 @@ module.exports = {
     "mygitalk": {
       "clientID": GITHUB_CLIENT_ID,
       "clientSecret": GITHUB_CLIENT_SECRET,
-      "accessToken": GITHUB_API_TOKEN,
       "repo": "leadtech-training-node-js-oct2019",
       "owner": "trainings-juanmaguitar",
-      "admin": ['juanmaguitar'],
+      "admin": 'juanmaguitar',
       "distractionFreeMode": false
     },
     "anchorjs": {
