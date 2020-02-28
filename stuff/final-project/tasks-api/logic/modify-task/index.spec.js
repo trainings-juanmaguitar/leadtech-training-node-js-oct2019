@@ -15,7 +15,7 @@ describe('logic - modify task', () => {
     let taskIds, titles
 
     beforeEach(async () => {
-        await Promise.all([Task.deleteMany()])
+        await Task.deleteMany()
 
         taskIds = []
         titles = []
@@ -59,7 +59,7 @@ describe('logic - modify task', () => {
         const taskId = taskIds.random()
         const newDoneStatus = statuses.random()
 
-        const { done } = await Task.findById(taskId)
+        const { title } = await Task.findById(taskId)
         const response = await modifyTask(taskId, undefined, newDoneStatus)
 
         expect(response).to.not.exist
@@ -73,57 +73,45 @@ describe('logic - modify task', () => {
 
         expect(task.done).to.exist
         expect(task.done).to.be.a('boolean')
-        expect(task.done).to.equal(done)
+        expect(task.done).to.equal(newDoneStatus)
 
     })
 
 
-    it('should fail on correct user and unexisting task data', async () => {
+    it('should fail on unexisting task', async () => {
         const taskId = ObjectId().toString()
         const newTitle = `new-title-${random()}`
-        const newDescription = `new-description-${random()}`
-        const newStatus = statuses.random()
+        const newDoneStatus = statuses.random()
 
         try {
-            await modifyTask(id, taskId, newTitle, newDescription, newStatus)
+            await modifyTask(taskId, newTitle, newDoneStatus)
 
             throw new Error('should not reach this point')
         } catch (error) {
             expect(error).to.exist
             expect(error).to.be.an.instanceOf(NotFoundError)
-            expect(error.message).to.equal(`user does not have task with id ${taskId}`)
+            expect(error.message).to.equal(`task with id ${taskId} does not exist`)
         }
     })
 
-    it('should fail on correct user and wrong task data', async () => {
-        const { _id } = await Task.findOne({ _id: { $nin: taskIds.map(taskId => ObjectId(taskId)) } })
-
-        const taskId = _id.toString()
+    it('should fail on bad task id format', async () => {
+        const taskId = '12345'
         const newTitle = `new-title-${random()}`
-        const newDescription = `new-description-${random()}`
-        const newStatus = statuses.random()
+        const newDoneStatus = statuses.random()
 
         try {
-            await modifyTask(id, taskId, newTitle, newDescription, newStatus)
+            await modifyTask(taskId, newTitle, newDoneStatus)
 
             throw new Error('should not reach this point')
         } catch (error) {
             expect(error).to.exist
-            expect(error).to.be.an.instanceOf(ConflictError)
-            expect(error.message).to.equal(`user with id ${id} does not correspond to task with id ${taskId}`)
+            expect(error).to.be.an.instanceOf(ContentError)
+            expect(error.message).to.equal(`${taskId} is not a valid task id`)
         }
     })
 
-    it('should fail on correct user and wrong task status', () => {
-        const taskId = taskIds.random()
-        const newTitle = `new-title-${random()}`
-        const newDescription = `new-description-${random()}`
-        const newStatus = 'wrong-status'
-
-        expect(() => modifyTask(id, taskId, newTitle, newDescription, newStatus)).to.throw(ContentError, `${newStatus} does not match any of the valid status values: ${statuses}`)
-    })
 
     // TODO other test cases
 
-    after(() => Promise.all([User.deleteMany(), Task.deleteMany()]).then(database.disconnect))
+    after(() => Task.deleteMany().then(database.disconnect))
 })

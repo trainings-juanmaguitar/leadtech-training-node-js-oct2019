@@ -27,10 +27,10 @@ describe('logic - create task', () => {
         expect(task.title).to.equal(title)
         expect(task.done).to.equal(false)
         expect(task.createdAt).to.exist
-        // expect(task.date).to.be.instanceOf(Date)
+        expect(task.createdAt).to.be.instanceOf(Date)
     })
 
     // TODO other test cases
 
-    after(() => Promise.all([Task.deleteMany()]).then(database.disconnect))
+    after(() => Task.deleteMany().then(database.disconnect))
 })

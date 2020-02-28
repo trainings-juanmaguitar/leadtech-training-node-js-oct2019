@@ -12,7 +12,7 @@ describe('logic - list tasks', () => {
 
     beforeEach(async () => {
 
-        await Promise.all([Task.deleteMany()])
+        await Task.deleteMany()
 
         taskIds = []
         titles = []
@@ -24,13 +24,8 @@ describe('logic - list tasks', () => {
             insertions.push(Task.create(task).then(task => taskIds.push(task.id)))
             titles.push(task.title)
         }
-
-        for (let i = 0; i < 10; i++)
-            insertions.push(Task.create({
-                title: `title-${random()}`
-            }))
-
-        await Promise.all(insertions)
+        
+        await Promise.all(insertions)            
     })
 
     it('should succeed on get tasks list', async () => {
@@ -60,5 +55,5 @@ describe('logic - list tasks', () => {
 
     // TODO other test cases
 
-    after(() => Promise.all([Task.deleteMany()]).then(database.disconnect))
+    // after(() => Promise.all([Task.deleteMany()]).then(database.disconnect))
 })

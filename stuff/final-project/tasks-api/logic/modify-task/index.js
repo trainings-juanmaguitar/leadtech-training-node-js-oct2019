@@ -13,7 +13,7 @@ module.exports = function (taskId, title, done) {
     }
 
     if (done) {
-        validate.boolean(status)
+        validate.boolean(done)
     }
 
     return (async () => {
