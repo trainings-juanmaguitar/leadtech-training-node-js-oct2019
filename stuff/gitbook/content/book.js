@@ -4,7 +4,8 @@ const {
   GITHUB_API_TOKEN,
   GITHUB_CLIENT_ID,
   GITHUB_CLIENT_SECRET
-}
+} = process.env
+
 module.exports = {
   "title": "Leadtech Javascript Training - Documentation",
   "links": {
