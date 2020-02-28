@@ -40,7 +40,6 @@ module.exports = {
       "repo": "leadtech-training-node-js-oct2019",
       "owner": "trainings-juanmaguitar",
       "admin": ['juanmaguitar'],
-      id: location.pathname,
       "distractionFreeMode": false
     },
     "anchorjs": {
