@@ -37,9 +37,10 @@ module.exports = {
       "clientID": GITHUB_CLIENT_ID,
       "clientSecret": GITHUB_CLIENT_SECRET,
       "accessToken": GITHUB_API_TOKEN,
-      "repo": "trainings-juanmaguitar/leadtech-training-node-js-oct2019",
-      "owner": "juanmaguitar",
+      "repo": "leadtech-training-node-js-oct2019",
+      "owner": "trainings-juanmaguitar",
       "admin": ['juanmaguitar'],
+      id: location.pathname,
       "distractionFreeMode": false
     },
     "anchorjs": {
