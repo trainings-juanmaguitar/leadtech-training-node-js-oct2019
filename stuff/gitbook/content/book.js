@@ -38,7 +38,7 @@ module.exports = {
       "clientSecret": GITHUB_CLIENT_SECRET,
       "repo": "leadtech-training-node-js-oct2019",
       "owner": "trainings-juanmaguitar",
-      "admin": 'juanmaguitar',
+      "admin": ['juanmaguitar'],
       "distractionFreeMode": false
     },
     "anchorjs": {
