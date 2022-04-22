@@ -28,7 +28,7 @@
     "express": "^4.16.4",
     "express-session": "^1.16.1",
     "gitbook-cli": "^2.3.2",
-    "nconf": "^0.8.5",
+    "nconf": "^0.11.4",
     "passport": "^0.3.2",
     "passport-auth0": "^0.5.2"
   }
